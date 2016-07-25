@@ -691,3 +691,193 @@ Processing by WelcomeController#lorem as HTML
   Parameters: {"name"=>"gangsta"}
   Rendered text template (0.0ms)
 Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lorem/" for ::1 at 2016-07-25 16:34:09 -0400
+Processing by WelcomeController#show as HTML
+  Parameters: {"name"=>"lorem"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 24ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-07-25 16:34:10 -0400
+Processing by WelcomeController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/joe" for ::1 at 2016-07-25 16:34:13 -0400
+Processing by WelcomeController#show as HTML
+  Parameters: {"name"=>"joe"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/joe" for ::1 at 2016-07-25 16:34:18 -0400
+Processing by WelcomeController#show as HTML
+  Parameters: {"name"=>"joe"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-07-25 16:34:19 -0400
+Processing by WelcomeController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lorem/" for ::1 at 2016-07-25 16:34:20 -0400
+Processing by WelcomeController#show as HTML
+  Parameters: {"name"=>"lorem"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lorem/" for ::1 at 2016-07-25 16:34:21 -0400
+Processing by WelcomeController#show as HTML
+  Parameters: {"name"=>"lorem"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lorem/key" for ::1 at 2016-07-25 16:34:27 -0400
+Processing by WelcomeController#lorem as HTML
+  Parameters: {"name"=>"key"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lorem/key" for ::1 at 2016-07-25 16:34:32 -0400
+Processing by WelcomeController#lorem as HTML
+  Parameters: {"name"=>"key"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lorem/" for ::1 at 2016-07-25 16:34:32 -0400
+Processing by WelcomeController#show as HTML
+  Parameters: {"name"=>"lorem"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lorem/gangsta" for ::1 at 2016-07-25 16:34:33 -0400
+Processing by WelcomeController#lorem as HTML
+  Parameters: {"name"=>"gangsta"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lorem/gangsta" for ::1 at 2016-07-25 16:34:35 -0400
+Processing by WelcomeController#lorem as HTML
+  Parameters: {"name"=>"gangsta"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lorem/" for ::1 at 2016-07-25 16:35:07 -0400
+Processing by WelcomeController#show as HTML
+  Parameters: {"name"=>"lorem"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lorem/key" for ::1 at 2016-07-25 16:35:08 -0400
+Processing by WelcomeController#lorem as HTML
+  Parameters: {"name"=>"key"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lorem/key" for ::1 at 2016-07-25 16:35:10 -0400
+Processing by WelcomeController#lorem as HTML
+  Parameters: {"name"=>"key"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-07-25 16:41:00 -0400
+Processing by WelcomeController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-07-25 16:41:01 -0400
+Processing by WelcomeController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-07-25 16:50:48 -0400
+Processing by WelcomeController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/joe" for ::1 at 2016-07-25 16:50:57 -0400
+Processing by WelcomeController#show as HTML
+  Parameters: {"name"=>"joe"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/joejoe" for ::1 at 2016-07-25 16:50:58 -0400
+Processing by WelcomeController#show as HTML
+  Parameters: {"name"=>"joejoe"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/joejoe" for ::1 at 2016-07-25 16:51:02 -0400
+Processing by WelcomeController#show as HTML
+  Parameters: {"name"=>"joejoe"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/joe" for ::1 at 2016-07-25 16:51:03 -0400
+Processing by WelcomeController#show as HTML
+  Parameters: {"name"=>"joe"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-07-25 16:51:03 -0400
+Processing by WelcomeController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lorem/key" for ::1 at 2016-07-25 16:51:04 -0400
+Processing by WelcomeController#lorem as HTML
+  Parameters: {"name"=>"key"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lorem/key" for ::1 at 2016-07-25 16:51:06 -0400
+Processing by WelcomeController#lorem as HTML
+  Parameters: {"name"=>"key"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lorem/" for ::1 at 2016-07-25 16:51:11 -0400
+Processing by WelcomeController#show as HTML
+  Parameters: {"name"=>"lorem"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lorem/gangsta" for ::1 at 2016-07-25 16:51:12 -0400
+Processing by WelcomeController#lorem as HTML
+  Parameters: {"name"=>"gangsta"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lorem/gangsta" for ::1 at 2016-07-25 16:51:13 -0400
+Processing by WelcomeController#lorem as HTML
+  Parameters: {"name"=>"gangsta"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)

@@ -12,7 +12,7 @@ class WelcomeController < ApplicationController
   def lorem
     lorem_name = params["name"]
     if lorem_name == "key"
-      lorem =
+      ipsum =
       "They will try to close the door on you, just open it. They don’t want us
        to win. They key is to have every key, the key to open every door. Look
        at the sunset, life is amazing, life is beautiful, life is what you make
@@ -21,7 +21,7 @@ class WelcomeController < ApplicationController
        life is amazing, life is beautiful, life is what you make it. I’m up to
        something. Wraith talk."
      elsif lorem_name == "gangsta"
-       lorem = "Dizzle shiz fizzle. Fusce pot ligula, gangster sizzle dope, sizzle away, 
+       ipsum = "Dizzle shiz fizzle. Fusce pot ligula, gangster sizzle dope, sizzle away,
        sollicitudin hizzle, tortizzle. Crunk a nisi. Nizzle malesuada neque shit risizzle.
        Fo gizzle. Yippiyo aliquizzle tristique dang. Suspendisse nizzle ultricizzle purizzle.
        That's the shizzle dolor libero, hizzle interdum, posuere shut the shizzle up,
@@ -31,8 +31,8 @@ class WelcomeController < ApplicationController
        eleifend da bomb, ullamcorper , fo shizzle my nizzle non, gangsta. Nam brizzle
        rutrizzle nunc."
     end
-    puts lorem
-    render(text: lorem)
+
+    render(text: ipsum)
 
   end
 end
