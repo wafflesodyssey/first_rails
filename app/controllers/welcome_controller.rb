@@ -20,6 +20,16 @@ class WelcomeController < ApplicationController
        is to have every key, the key to open every door. Look at the sunset,
        life is amazing, life is beautiful, life is what you make it. I’m up to
        something. Wraith talk."
+     elsif lorem_name == "gangsta"
+       lorem = "Dizzle shiz fizzle. Fusce pot ligula, gangster sizzle dope, sizzle away, 
+       sollicitudin hizzle, tortizzle. Crunk a nisi. Nizzle malesuada neque shit risizzle.
+       Fo gizzle. Yippiyo aliquizzle tristique dang. Suspendisse nizzle ultricizzle purizzle.
+       That's the shizzle dolor libero, hizzle interdum, posuere shut the shizzle up,
+       dapibus izzle, augue. Ma nizzle izzle daahng dawg. Aenizzle aliquizzle check it
+       out sit yippiyo my shizz. Fusce dapibizzle pimpin' id own yo'. Own yo' ipsum
+       dolizzle sizzle amet, hizzle pot elizzle. Suspendisse we gonna chung fizzle,
+       eleifend da bomb, ullamcorper , fo shizzle my nizzle non, gangsta. Nam brizzle
+       rutrizzle nunc."
     end
     puts lorem
     render(text: lorem)
